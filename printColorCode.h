@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "test.h"
+#include <assert.h>
 
 void testNumberToPairONLY(int pairNumber)
 {
@@ -7,7 +8,6 @@ void testNumberToPairONLY(int pairNumber)
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
     ColorPairToString(&colorPair, colorPairNames);
     printf("Got pair %s\n", colorPairNames);
-
 }
 
 
