@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include "test.h"
+#include "printColorCode.h"
+
 
 int main() 
 {
