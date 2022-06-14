@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <assert.h>
 
+ColorPair GetColorFromPairNumber(int pairNumber);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
+
 void testNumberToPairONLY(int pairNumber)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
