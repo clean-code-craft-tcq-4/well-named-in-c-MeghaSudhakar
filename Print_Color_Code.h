@@ -1,5 +1,6 @@
 #include "test.h"
-
+#include <stdio.h>
+#include <assert.h>
 
 void testNumberToPairONLY(int pairNumber)
 {
