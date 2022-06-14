@@ -15,7 +15,8 @@ int main()
     printf("Pair No.\tMajor Color\tMinor Color\n");
     for(i=1; i<=25; i++)
     {
-        printf("%d\tMajor Color\tMinor Color\n",i);
+        printf("%d\t\t",i);
+        testNumberToPairONLY(i);
         
     }
  
