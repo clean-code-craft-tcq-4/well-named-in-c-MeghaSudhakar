@@ -15,7 +15,7 @@ int main()
     
   for(i=0; i<=25; i++)
   {
-    printf("major color and minor color %s",testNumberToPairONLY(i));
+    testNumberToPairONLY(i);
   }
     return 0;
 }
