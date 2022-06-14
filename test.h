@@ -45,7 +45,7 @@ void testNumberToPairONLY(int pairNumber)
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
     ColorPairToString(&colorPair, colorPairNames);
-    printf("Got pair %s\n", colorPairNames);
+    printf(" %s\n", colorPairNames);
 
 }
 
@@ -61,5 +61,5 @@ void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expected
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
-    sprintf(buffer, "%s %s", MajorColorNames[colorPair->majorColor], MinorColorNames[colorPair->minorColor]);
+    sprintf(buffer, "%s\t\t %s", MajorColorNames[colorPair->majorColor], MinorColorNames[colorPair->minorColor]);
 }
