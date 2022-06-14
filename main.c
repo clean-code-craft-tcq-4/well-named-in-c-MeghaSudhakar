@@ -27,8 +27,7 @@ ColorPair GetColorFromPairNumber(int pairNumber)
 
 int GetPairNumberFromColor(const ColorPair* colorPair) 
 {
-    return colorPair->majorColor * numberOfMinorColors +
-            colorPair->minorColor + 1;
+    return colorPair->majorColor * numberOfMinorColors + colorPair->minorColor + 1;
 }
 
 int main() 
@@ -38,6 +37,8 @@ int main()
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
+    
+    printf("hellow megha world  ********* \n");
 
     return 0;
 }
