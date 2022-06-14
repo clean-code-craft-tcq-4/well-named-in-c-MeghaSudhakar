@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
 #include "test.h"
-#include "printColorCode.h"
-
 
 int main() 
 {
@@ -15,9 +13,5 @@ int main()
     testPairToNumber(VIOLET, SLATE, 25);
 
     
-  for(i=0; i<=25; i++)
-  {
-    testNumberToPairONLY(i);
-  }
-    return 0;
+ 
 }
