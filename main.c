@@ -12,6 +12,11 @@ int main()
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-   printf("Pair No.\tMajor Color\tMinor Color\n");
+    printf("Pair No.\tMajor Color\tMinor Color\n");
+    for(i=1; i<=25; i++)
+    {
+        printf("%d\tMajor Color\tMinor Color\n",i);
+        
+    }
  
 }
